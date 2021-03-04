@@ -193,16 +193,20 @@ packages:
   floor_annotation:
     dependency: "direct main"
     description:
-      path: "../floor_annotation"
-      relative: true
-    source: path
+      path: floor_annotation
+      ref: "5a25d08"
+      resolved-ref: "5a25d084eb827600713554b713a3d02fcea554fc"
+      url: "https://github.com/glynskyi/floor.git"
+    source: git
     version: "1.0.0-nullsafety.1"
   floor_generator:
     dependency: "direct dev"
     description:
-      path: "../floor_generator"
-      relative: true
-    source: path
+      path: floor_generator
+      ref: "35c0b29"
+      resolved-ref: "35c0b293638bd4036663b3026aa945aa32e90b77"
+      url: "https://github.com/glynskyi/floor.git"
+    source: git
     version: "1.0.0-nullsafety.1"
   flutter:
     dependency: "direct main"
